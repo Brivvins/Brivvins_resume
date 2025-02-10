@@ -60,3 +60,35 @@ h1, h2, h3 {
     border-right: 1px solid lightgray;
 }
 
+@media (max-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        margin-right: 7px;
+        margin-left: 10px;
+        gap: 2em;
+    }
+
+    #mainLeft {
+        border-right: none;
+        border-bottom: 1px solid lightgray;
+    }
+
+    section {
+        margin: 1em auto;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 0.9em;
+    }
+}
+
+
